@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-apollo-test/static/css/main.bffac5fa.chunk.css"
   },
   {
-    "revision": "18007b6a2846a1c21cb842ebe55f272d",
+    "revision": "ae22c48c2a94705fba651035dd021033",
     "url": "/react-apollo-test/index.html"
   }
 ];
