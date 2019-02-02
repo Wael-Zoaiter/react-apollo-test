@@ -1,6 +1,7 @@
 {
   "name": "react-apollo-test",
   "version": "0.1.0",
+  "private": false,
   "homepage": "https://wael-zoaiter.github.io/react-apollo-test/",
   "dependencies": {
     "apollo-boost": "^0.1.27",
