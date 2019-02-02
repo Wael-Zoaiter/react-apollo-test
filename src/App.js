@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <ApolloProvider client={client}>
-        <Router basename="/react-apollo-test/">
+        <Router>
           <Switch>
             <Route exact path="/" component={() => <Redirect to="/page/1" />} />
             <Route exact path="/page/:page" component={RepositoriesList} />
