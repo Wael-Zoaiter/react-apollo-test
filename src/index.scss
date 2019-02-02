@@ -1,0 +1,19 @@
+$primary: #a3dbfa;
+$secondary: #bf99ea;
+@import '~wi-framework/index';
+@include create-background('dark', #343a40);
+@import 'node_modules/wi-framework/components/card';
+@import 'node_modules/wi-framework/components/bootstrap/pagination';
+
+.container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.single-card {
+    height: 100vh;
+    overflow: hidden;
+    .card {
+        height: -webkit-fill-available;
+    }
+}
