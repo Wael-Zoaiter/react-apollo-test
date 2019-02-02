@@ -1,13 +1,13 @@
 {
   "main.css": "/react-apollo-test/static/css/main.bffac5fa.chunk.css",
-  "main.js": "/react-apollo-test/static/js/main.b6cf3810.chunk.js",
-  "main.js.map": "/react-apollo-test/static/js/main.b6cf3810.chunk.js.map",
+  "main.js": "/react-apollo-test/static/js/main.1f33ce2a.chunk.js",
+  "main.js.map": "/react-apollo-test/static/js/main.1f33ce2a.chunk.js.map",
   "static/js/1.041c9822.chunk.js": "/react-apollo-test/static/js/1.041c9822.chunk.js",
   "static/js/1.041c9822.chunk.js.map": "/react-apollo-test/static/js/1.041c9822.chunk.js.map",
   "runtime~main.js": "/react-apollo-test/static/js/runtime~main.acc90147.js",
   "runtime~main.js.map": "/react-apollo-test/static/js/runtime~main.acc90147.js.map",
   "static/css/main.bffac5fa.chunk.css.map": "/react-apollo-test/static/css/main.bffac5fa.chunk.css.map",
   "index.html": "/react-apollo-test/index.html",
-  "precache-manifest.bec247eb4a133099cb763e38cc57ee9f.js": "/react-apollo-test/precache-manifest.bec247eb4a133099cb763e38cc57ee9f.js",
+  "precache-manifest.b660c7c59ebfb9146fa19fe29ee4a54a.js": "/react-apollo-test/precache-manifest.b660c7c59ebfb9146fa19fe29ee4a54a.js",
   "service-worker.js": "/react-apollo-test/service-worker.js"
 }
