@@ -18,6 +18,7 @@ class App extends Component {
             <Route exact path="/" component={() => <Redirect to="/page/1" />} />
             <Route exact path="/page/:page" component={RepositoriesList} />
             <Route exact path="/:owner/:name" component={RepositoryDetail} />
+            <Route path="*" component={() => <Redirect to="/" />} />
           </Switch>
         </Router>
       </ApolloProvider>

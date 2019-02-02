@@ -1,13 +1,14 @@
 import ApolloClient from 'apollo-boost';
 import gql from 'graphql-tag';
-
+import config from './config';
 // TODO: Pass the token as enviroment variable
-const token = "aa4ecaf015ca67d87d89015a2248c14cc7613bf2";
+const token = config.token;
 
 export const client = new ApolloClient({
   uri: "https://api.github.com/graphql",
   headers: {
-    authorization: token ? `Bearer ${token}` : ""
+    authorization: token ? `Bearer ${token}` : "",
+    "User-Agent": "Wael-Zoaiter"
   }
 });
 
