@@ -4,7 +4,7 @@ import { Loading } from './ui';
 import { Redirect } from 'react-router-dom';
 
 const CLIENT_ID = '53eff2996ef8cde22386';
-const REDIRECT_URI = 'https://wael-zoaiter.github.io/react-apollo-test/';
+const REDIRECT_URI = process.env.NODE_ENV === 'production' ? `https://wael-zoaiter.github.io${process.env.PUBLIC_URL}` : 'http://localhost:3000/';
 
 class Authentication extends Component {
 constructor(props) {
@@ -18,7 +18,7 @@ constructor(props) {
 
     componentDidMount() {
         const code = window.location.href.match(/\?code=(.*)/) && window.location.href.match(/\?code=(.*)/)[1];
-        
+
         if(code) {
             this.setState({
                 isLoading: true
@@ -35,9 +35,11 @@ constructor(props) {
         }
     }
     render() {
+        console.log(process.env.PUBLIC_URL);
+        
         return (
-        <div className="authentication">
-            {this.state.isLoading ? <Loading /> : this.state.token ? <Redirect to="/page/1" /> : <a href={`https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=user&redirect_uri=${REDIRECT_URI}`}>Login</a>}
+        <div className="authentication bg-dark">
+            {this.state.isLoading ? <Loading /> : this.state.token ? <Redirect to="/page/1" /> : <a className="btn btn-light" href={`https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=user&redirect_uri=${REDIRECT_URI}`}>Login with Github</a>}
         </div>
         )
     }

@@ -4,6 +4,7 @@ $secondary: #bf99ea;
 @include create-background('dark', #343a40);
 @import 'node_modules/wi-framework/components/card';
 @import 'node_modules/wi-framework/components/bootstrap/pagination';
+@import 'node_modules/wi-framework/components/bootstrap/buttons';
 
 .container {
     padding-top: 5rem;
@@ -15,5 +16,15 @@ $secondary: #bf99ea;
     overflow: hidden;
     .card {
         height: -webkit-fill-available;
+    }
+}
+
+.authentication {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn {
+        font-size: 1.2rem;
     }
 }

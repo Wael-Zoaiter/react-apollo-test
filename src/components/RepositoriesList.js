@@ -45,7 +45,7 @@ class RepositoriesList extends Component {
         // Query variables        
         const after = pageInfo.endCursor || null;
         const before = pageInfo.endCursor || null;
-        const query = 'language:JavaScript stars:>10000';
+        const query = 'stars:>10000';
         const type = 'REPOSITORY';
         const first = isNewPage ? REPOS_PER_PAGE : 100;
         const variables = { query, first, type };
@@ -95,7 +95,7 @@ const ReposListViewer = props => {
                         const ownerName = repo.owner ? repo.owner.login : '';
                         return (
                             <div key={repo.id} className="col-12">
-                                <Link to={`/${ownerName}/${repo.name}`} target="_blank">
+                                <Link to={`/${ownerName}/${repo.name}`}>
                                     <Card>
                                         <CardHeader>{ownerName}</CardHeader>
                                         <CardBody>
