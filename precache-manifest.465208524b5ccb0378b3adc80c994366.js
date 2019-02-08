@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-apollo-test/static/js/runtime~main.acc90147.js"
   },
   {
-    "revision": "5fb92778883c7496013c",
-    "url": "/react-apollo-test/static/js/main.5fb92778.chunk.js"
+    "revision": "1596aa9b71fffedc9a25",
+    "url": "/react-apollo-test/static/js/main.1596aa9b.chunk.js"
   },
   {
     "revision": "93177c7c57c3c5e2f955",
     "url": "/react-apollo-test/static/js/1.93177c7c.chunk.js"
   },
   {
-    "revision": "5fb92778883c7496013c",
+    "revision": "1596aa9b71fffedc9a25",
     "url": "/react-apollo-test/static/css/main.adaa7a2d.chunk.css"
   },
   {
-    "revision": "304a6a55aecaa373be821cc0dd0c7655",
+    "revision": "c8b1f61ffa2907f2dfae81ca0e59f98b",
     "url": "/react-apollo-test/index.html"
   }
 ];
