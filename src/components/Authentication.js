@@ -4,7 +4,7 @@ import { Loading } from './ui';
 import { Redirect } from 'react-router-dom';
 
 const CLIENT_ID = '53eff2996ef8cde22386';
-const REDIRECT_URI = 'http://localhost:3000/';
+const REDIRECT_URI = 'https://wael-zoaiter.github.io/react-apollo-test/';
 
 class Authentication extends Component {
 constructor(props) {
